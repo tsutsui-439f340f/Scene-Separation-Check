@@ -1,6 +1,4 @@
-import torch
-import torch.nn as nn
-from torchvision import models, transforms
+from torchvision import models
 import time
 import os
 import random
@@ -28,6 +26,7 @@ if len(sys.argv)>1:
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 epochs=10
+
 model_path = 'model_0814.pth'
 
 image_size1,image_size2=1080//8,1920//8
@@ -59,7 +58,7 @@ def transform(sample,T):
         img = trans(img)
         img=img.reshape(n_channels,image_size1,image_size2)
         trans_video[:,i] = img
-    if sum(label[s:e])>1:
+    if sum(label[s:e])>:
         label=1
     else:
         label=0
