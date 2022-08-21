@@ -10,7 +10,7 @@
 
 <img src="https://user-images.githubusercontent.com/55880071/185285516-363095ee-2d89-4c97-b271-1ae72ff58ec5.png" width=400>
 <img src="https://user-images.githubusercontent.com/55880071/185285475-5a39469d-0bda-4681-a42e-eed240ff24ce.png" width=400>
-
-
+</div>
+<div align="center">
 ![image](https://user-images.githubusercontent.com/55880071/185201345-850ff375-dcdd-423d-8600-4948030ed13d.png)
 </div>
